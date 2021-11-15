@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 5px;
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+  }
+  .inputCell {
+    width: 80%;
+  }
+  .inputCell input {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  .inputCell input:focus {
+    outline: none;
+  }
+  button {
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  .formOfTasks {
+    background-color: #ddd;
+    border-radius: 5px;
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+  }
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
